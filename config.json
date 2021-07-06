@@ -1,17 +1,17 @@
 {
-    "crackedusernameprefix": "BOT",
+    "crackedusernameprefix": "Donut_Bear",
 
-    "ip": "server.com",
+    "ip": "AntiquaArn.aternos.me",
     "port": 25565,
-    "version": "1.12.2",
+    "version": "1.16.5",
 
-    "loginintervalms": 1000,
+    "loginintervalms": 30000,
 
     "altening": false,
     "altening_token": "",
 
-    "spammessage": "spam",
-    "spamintervalms": 1500,
+    "spammessage": " ",
+    "spamintervalms": 1000,
 
     "physics": false
 }
