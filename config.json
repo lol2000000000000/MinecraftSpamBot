@@ -1,16 +1,16 @@
 {
     "crackedusernameprefix": "Donut_Bear",
 
-    "ip": "THEBROKEN_SMP.aternos.me",
+    "ip": "JoaquinFW.aternos.me",
     "port": 25565,
     "version": "1.16.5",
 
-    "loginintervalms": 30000,
+    "loginintervalms": 4000,
 
     "altening": false,
     "altening_token": "",
 
-    "spammessage": " ",
+    "spammessage": "OWOneed ",
     "spamintervalms": 1000,
 
     "physics": false
