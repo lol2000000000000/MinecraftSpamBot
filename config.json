@@ -1,5 +1,5 @@
 {
-    "crackedusernameprefix": "Donut_Bear",
+    "crackedusernameprefix": "Pussy_Bear",
 
     "ip": "TheBitterDonut.aternos.me",
     "port": 25565,
@@ -10,8 +10,9 @@
     "altening": false,
     "altening_token": "",
 
-    "spammessage": "OWOneed ",
+    "spammessage": "OWOned by SS",
     "spamintervalms": 1000,
 
-    "physics": false
+    "physics": false,
+    "max": 9000 //max number to write around spam
 }

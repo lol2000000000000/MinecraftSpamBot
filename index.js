@@ -2,7 +2,13 @@ const snekfetch = require("snekfetch")
 const config = require("./config.json")
 let number = 300
 setInterval(() => {
-number = number + 8
+number = number + 8 
+var rn = require('random-number');
+var f = {
+  min:  0
+, max:  config.max  //max number to write around spam
+, integer: true  
+}
 
 if(config.altening == true){
     snekfetch.get(`http://api.thealtening.com/v1/generate?token=${config.altening_token}&info=true`).then(n => {
@@ -89,13 +95,13 @@ if(config.altening == true){
         bot.chat("/login p@ssword123")
         bot.chat("/register p@ssword123 p@ssword123")
         setInterval(() => {
-            bot.chat(config.spammessage)
+            bot.chat(config.spammessage + " " + rn(f))
         }, config.spamintervalms)
         console.log("Logged in " + bot.username)
     });
-    bot.on('error', err => console.log(err))
+    bot.on('error', err => console.log("error("))
     bot.on('kicked', function(reason) {
-        console.log("I got kicked for", reason, "lol");
+        console.log("I got kicked for", reason, );
     });
 }
 }, config.loginintervalms)
