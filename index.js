@@ -1,8 +1,8 @@
 const snekfetch = require("snekfetch")
 const config = require("./config.json")
-let number = 100
+let number = 300
 setInterval(() => {
-number = number + 1
+number = number + 8
 
 if(config.altening == true){
     snekfetch.get(`http://api.thealtening.com/v1/generate?token=${config.altening_token}&info=true`).then(n => {
