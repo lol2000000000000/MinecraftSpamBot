@@ -17,3 +17,4 @@ Powerful minecraft spambot useful for testing anti bot solutions.
 <br>**spammessage** message to spam in server
 <br>**spaminterval** how fast to send messages in ms?
 <br>**physics** turn on physics? (may be needed if server has anticheat) keep false for best performance
+<br>**max** max number around with spam message
