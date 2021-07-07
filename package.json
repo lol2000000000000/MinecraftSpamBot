@@ -4,7 +4,10 @@
   "description": "MinecraftSpamBot",
   "main": "index.js",
   "dependencies": {
-    "snekfetch": "x",
-    "mineflayer": "x"
+    "mineflayer": "x",
+    "random": "^3.0.6",
+    "random-number": "^0.0.9",
+    "randomstring": "^1.2.1",
+    "snekfetch": "x"
   }
 }
