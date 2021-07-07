@@ -14,5 +14,5 @@
     "spamintervalms": 1000,
 
     "physics": false,
-    "max": 9000 //max number to write around spam
+    "max": 9000
 }
