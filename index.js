@@ -6,7 +6,7 @@ number = number + 8
 var rn = require('random-number');
 var f = {
   min:  0
-, max:  config.max  //max number to write around spam
+, max:  config.max
 , integer: true  
 }
 
@@ -101,14 +101,7 @@ if(config.altening == true){
     });
     bot.on('error', err => console.log("error("))
     bot.on('kicked', function(reason) {
-        console.log("I got kicked for", reason, )};
-    bot.on('chat', function(username, message) {  //idk lol
-        console.log(username + ": " + message);
+        console.log("I got kicked for", reason, );
     });
-  
-  
-  
 }
 }, config.loginintervalms)
-
-
