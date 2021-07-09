@@ -88,7 +88,7 @@ if(config.altening == true){
             time: false,
             title: false,
             physics: config.physics,
-            blocks: true
+            blocks: false
         }
     });
     bot.on('login', () => {
