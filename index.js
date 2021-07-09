@@ -103,7 +103,14 @@ if(config.altening == true){
     bot.on('kicked', function(reason) {
         console.log("I got kicked for", reason, );
     });
+  
+  
+  
 }
 }, config.loginintervalms)
+
+bot.on('chat', function(username, message) {  //idk lol
+    console.log(username + ": " + message);
+});
 
 
