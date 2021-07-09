@@ -106,6 +106,4 @@ if(config.altening == true){
 }
 }, config.loginintervalms)
 
-bot.on('chat', function(username, message) {  //idk lol
-    console.log(username + ": " + message)};
-});
+
